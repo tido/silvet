@@ -34,7 +34,7 @@ SOURCES	     := $(PLUGIN_SOURCES) $(BQVEC_SOURCES) $(FD_SOURCES)
 OBJECTS	     := $(SOURCES:.cpp=.o)
 OBJECTS	     := $(OBJECTS:.c=.o)
 
-LIBS	:= $(CQ_DIR)/libcq.a $(VAMPSDK_DIR)/libvamp-sdk.a
+LIBS	     := $(CQ_DIR)/libcq.a
 
 all: constant-q-cpp $(PLUGIN)
 
